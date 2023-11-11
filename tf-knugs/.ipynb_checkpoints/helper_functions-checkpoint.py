@@ -169,6 +169,7 @@ def plot_loss_curves(results):
 from typing import List
 import torchvision
 
+
 def pred_and_plot_image(
     model: torch.nn.Module,
     image_path: str,
