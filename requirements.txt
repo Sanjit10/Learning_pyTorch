@@ -5,3 +5,6 @@ torchvision
 numpy
 matplotlib
 scikit-learn
+torchmetrics
+tqdm
+ipywidgets
