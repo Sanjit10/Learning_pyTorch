@@ -1,3 +1,4 @@
+version: '3.8'
 services:
   jupyter-lab:
     build: .
@@ -5,6 +6,7 @@ services:
       - "8888:8888"
     volumes:
       - ./tf-knugs:/tf-knugs
+    shm_size: '8gb'
     deploy:
       resources:
         reservations:
